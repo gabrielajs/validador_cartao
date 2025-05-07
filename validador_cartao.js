@@ -11,7 +11,7 @@ function validarBandeiraCartao(numeroCartao) {
     for (const [bandeira, regex] of Object.entries(bandeiras)) {
         if (regex.test(numeroCartao)) {
             return bandeira;
-        }
+        }git
     }
 
     return 'Bandeira desconhecida ou número inválido';
